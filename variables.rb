@@ -69,11 +69,6 @@ puts $y
 
 # $LOAD_PATH << '.' # add element to array!!!!!
 
-# print data in file
-# $stdout = StringIO.new
-# puts 'Hello, world!'
-# File.write('output.log', $stdout.string)
-
 puts $PROGRAM_NAME
 
 # @ - class field(in ruby it calls "global variable inside the class"),
@@ -130,3 +125,13 @@ first.set_counter 10
 second = HelloWorld.new
 puts second.counter # 10
 p HelloWorld.class_variables # [:@@counter]
+
+# $stdout = StringIO.new 
+# puts 'Hello, world!'
+# File.write('output.log', $stdout.string)
+# $stdout = STDOUT
+# puts 'Hello, Ruby!'
+
+puts __FILE__ # /home/dhonchar/projects/ruby/simple-ruby/variables.rb
+puts __LINE__ # 136
+
