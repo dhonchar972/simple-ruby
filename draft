@@ -18,3 +18,36 @@ Gems:
     $ gem install ruby-debug-ide
     $ gem install solargraph
     $ gem install rails
+    $ gem install bundler # bundle init # bundle install # bundle update [gem_name] # bundle install --without test # bundle install --with test # bundle gem hello - create template for custom gem
+    $ gem install rubocop # linter
+    # $ gem uninstall rake # 
+    # $ gem install ruby-graphviz # bundle viz - generate dependency tree # bundle show [gem_name] # bundle open [gem_name] # bundle info [gem_name]
+
+    # begin
+    # console debuger
+    # $ gem install pry #
+    # $ gem install pry-byebug # 
+    # end
+
+Utilits:
+    erb - template engine - <% puts 'Hello, world!' %>, <%= 2 + 2 %>
+    rake - ruby make
+    rdoc - generate documentation,
+    yard - more powerfull documentation generator
+        Documentation extraction - "rdoc class-with-documentation.rb"
+        Doc folder will be generated in response.
+
+Default objects:
+    String 'Hello wold!'
+    Symbol :white
+    Integer 15
+    Float 3.14159
+    Range 1..10
+    Array [1, 2, 3, 4]
+    Hash {hello: 'world', lang: 'ruby'}
+    Proc ->(a, b) { a + b }
+    Regexp //
+    NilClass nil
+    TrueClass true
+    FalseClass false
+    
