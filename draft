@@ -1,0 +1,20 @@
+Plugins for ruby:
+    "endwise" - adds the "end" keyword to the code structures
+    "ruby solargraph" - documentation and autocompletion
+    "ruby" - suport and debug
+    "code runner" - add button "run"
+    "WSL" - wsl suport
+    "one dark pro" - good theme
+    some icons theme
+
+wsl2
+rvm - ruby versions managment
+nvm - node versions managment
+ruby
+node
+
+Gems:
+    $ gem install debug
+    $ gem install ruby-debug-ide
+    $ gem install solargraph
+    $ gem install rails
