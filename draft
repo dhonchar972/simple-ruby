@@ -50,4 +50,26 @@ Default objects:
     NilClass nil
     TrueClass true
     FalseClass false
-    
+
+Popular standard modules:
+    Set
+    Math
+    Singleton
+    Comparable
+    Enumerable
+    Forwardable
+    Marshal
+    Json
+    Yaml
+
+Object standart methods:
+    .freeze # imutable value
+    .untaint, .taint, .tainted?
+    .clone, .dup
+
+Collections:
+    Array
+    Hash
+    Set
+    Struct
+    OpenStruct
